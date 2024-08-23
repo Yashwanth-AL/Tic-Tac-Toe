@@ -48,12 +48,13 @@ body {
   background-color: white;
   font-size: 8rem; 
   border: 2px solid #011f3f;
-  box-shadow: 0 0 1rem rgba(160, 163, 166, 0.4);
+  box-shadow: 0 0 1rem rgba(170, 201, 232, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   color: rgb(230, 0, 0);
+  background-color: #fafacc;
 }
 
 .reset {

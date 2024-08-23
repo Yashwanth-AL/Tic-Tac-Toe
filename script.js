@@ -23,6 +23,7 @@ $(".box").each(function() {
     }
     count++;
     $(this).prop("disabled", true);
+    $(this).css("background-color", "#fbfbe3");
     checkWinner();
   });
 });
@@ -51,7 +52,6 @@ function checkWinner(){
     if(count === 9){
       $("#sub-title").text("Oops!  Game draws"); 
       playSound("draw");
-      return;
     }
   }
 }
@@ -70,7 +70,7 @@ function reset(){
   $(".box").each(function() {
     $(this).text(" "); 
     $(this).prop("disabled", false); 
-    $(this).css("background-color", "white");
+    $(this).css("background-color", "#fafacc");
   });
   playSound("restart");
   turn = "X";
