@@ -34,12 +34,6 @@ function checkWinner(){
     let pos2 = boxes[pattern[1]].innerText;
     let pos3 = boxes[pattern[2]].innerText;
 
-    if(count === 9){
-      $("#sub-title").text("Oops!  Game draws"); 
-      playSound("draw");
-      return;
-    }
-
     if(pos1 != "" && pos2 != "" && pos3 != ""){
       if(pos1 === pos2 && pos2 === pos3){
         pattern.forEach(index => {
@@ -51,6 +45,12 @@ function checkWinner(){
           $(this).prop("disabled", true); 
         });
       }
+    }
+
+    if(count === 9){
+      $("#sub-title").text("Oops!  Game draws"); 
+      playSound("draw");
+      return;
     }
   }
 }
