@@ -1,4 +1,4 @@
-# 🎮 [Tic-Tac-Toe Game](https://your-github-username.github.io/Tic-Tac-Toe-Game/)
+# 🎮 [Tic-Tac-Toe Game](https://yashwanth-al.github.io/Tic-Tac-Toe/)
 Click the link above to play the game directly on your browser!
 
 ![Tic-Tac-Toe Game Start](./Images/start.png) 
