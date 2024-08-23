@@ -44,6 +44,7 @@ function checkWinner(){
         $(".box").each(function() {
           $(this).prop("disabled", true); 
         });
+        return;
       }
     }
 
