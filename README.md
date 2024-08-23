@@ -16,7 +16,7 @@ Tic-Tac-Toe is a classic two-player game built using **HTML**, **CSS**, and **Ja
 
 ---
 
-![Gameplay](./images/winner.png) 
+![GameWinner](./images/winner.png) 
 
 ## Features 🌟
 
@@ -28,7 +28,7 @@ Tic-Tac-Toe is a classic two-player game built using **HTML**, **CSS**, and **Ja
 
 ---
 
-![Gameplay](./images/draw.png) 
+![GameDraw](./images/draw.png) 
 
 ## Technologies Used 💻
 
